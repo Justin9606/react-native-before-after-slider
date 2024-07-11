@@ -1,0 +1,35 @@
+{
+  "name": "react-native-before-after-slider",
+  "version": "1.0.0",
+  "description": "A React Native component for creating before and after image sliders.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin9606/react-native-before-after-slider.git"
+  },
+  "keywords": [
+    "react-native",
+    "slider",
+    "before-after",
+    "reanimated",
+    "gesture-handler"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justin9606/react-native-before-after-slider/issues"
+  },
+  "homepage": "https://github.com/justin9606/react-native-before-after-slider#readme",
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-native": ">=0.60.0"
+  },
+  "dependencies": {
+    "react-native-reanimated": "^2.0.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "styled-components": "^5.3.1"
+  }
+}
