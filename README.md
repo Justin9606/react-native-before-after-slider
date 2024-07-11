@@ -10,7 +10,9 @@ A lightweight and customizable React Native component for creating before and af
 
 ## Installation
 
-First, install the necessary dependencies:
+## Using npm
+
+# First, install the necessary dependencies:
 
 ```bash
 npm install react-native-reanimated react-native-gesture-handler styled-components
@@ -20,7 +22,18 @@ npm install react-native-reanimated react-native-gesture-handler styled-componen
 
 ```bash
 npm install react-native-before-after-slider
+```
 
+## Using yarn
+
+```bash
+yarn add react-native-reanimated react-native-gesture-handler styled-components
+```
+
+# Then, install the react-native-before-after-slider package:
+
+```bash
+yarn add react-native-before-after-slider
 ```
 
 Make sure to follow the setup instructions for `react-native-reanimated and react-native-gesture-handler ` if you haven't already.
