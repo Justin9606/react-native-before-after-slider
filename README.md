@@ -120,3 +120,11 @@ export default App;
 | `handleColor`         | `string`              | 'white'  | The color of the slider handle.                      |
 | `delimiterIcon`       | `ImageSourcePropType` | Optional | The source for the delimiter icon inside the handle. |
 | `delimiterIconStyles` | `object`              | {}       | Styles for the delimiter icon.                       |
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request to discuss any changes.
+
+## License
+
+This project is licensed under the MIT License.
