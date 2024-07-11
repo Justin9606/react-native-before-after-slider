@@ -38,21 +38,24 @@ const Slider = styled(Animated.View)`
   align-items: center;
 `;
 
-const SliderHandle = styled.View`
+const SliderHandle = styled(Animated.View)`
   width: ${(props) => props.handleWidth || 20}px;
-  height: 100%;
+  height: ${(props) => props.handleHeight || 20}px;
   background-color: ${(props) => props.handleColor || "white"};
   justify-content: center;
   align-items: center;
+  ${(props) => props.handlerStyle}
 `;
 
 const BeforeAfterSlider = ({
   beforeImage,
   afterImage,
   handleWidth,
+  handleHeight,
   handleColor,
   delimiterIcon,
   delimiterIconStyles,
+  handlerStyle,
 }) => {
   const translateX = useSharedValue(SCREEN_WIDTH / 2);
 
@@ -76,7 +79,12 @@ const BeforeAfterSlider = ({
       </AfterImageContainer>
       <PanGestureHandler onGestureEvent={gestureHandler}>
         <Slider style={animatedStyle}>
-          <SliderHandle handleWidth={handleWidth} handleColor={handleColor}>
+          <SliderHandle
+            handleWidth={handleWidth}
+            handleHeight={handleHeight}
+            handleColor={handleColor}
+            style={handlerStyle}
+          >
             {delimiterIcon && (
               <Image source={delimiterIcon} style={delimiterIconStyles} />
             )}
