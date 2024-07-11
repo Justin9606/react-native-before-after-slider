@@ -1,0 +1,8 @@
+node_modules
+example
+src/*.test.js
+*.md
+*.log
+.gitignore
+.npmignore
+babel.config.js
